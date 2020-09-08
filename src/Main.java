@@ -24,7 +24,7 @@ public class Main
             InputStreamReader stream = new InputStreamReader(new FileInputStream(f), "CP1251");
             final int read = stream.read(words);
             String str = new String(words, 0, read);
-            stream.close();
+           // stream.close();
             return str;
         }
         else{
